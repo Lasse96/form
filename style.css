@@ -18,3 +18,23 @@ form {
     width: 90px;
     text-align: right;
   }
+  input, textarea {
+      font: 1em sans-serif;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+  }
+  input:focus,
+  textarea:focus {
+      border-color: #00f;
+  }
+  textarea {
+      vertical-align: top;
+      height: 5rem;
+  }
+  .button {
+      padding-left: 90px;
+  }
+  button {
+      margin-left: 5em;
+  }
