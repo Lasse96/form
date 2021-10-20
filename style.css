@@ -39,7 +39,20 @@ form {
   button {
       margin-left: .3em;
   }
-  input[type=text,email,msg] {
-    background-color: #3CBC8D;
-    color: white;
+  input[type=text],[type=email] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
   }
+  button[type=button],
+button[type=submit],
+button[type=reset] {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button[type=button] { background-color: #555; }
+button[type=submit] { background-color: #4CAF50; }
+button[type=reset]  { background-color: #f44336; }
