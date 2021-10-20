@@ -32,7 +32,9 @@ form {
       vertical-align: top;
       height: 5rem;
   }
-  
+  .button {
+    padding: auto;
+}
   button {
       margin: auto auto;
   }
